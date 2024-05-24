@@ -5,4 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(s2u06 main.cpp
         List.cpp
-        Map.cpp)
+        Map.cpp
+        Map.h
+        Queue.cpp
+)

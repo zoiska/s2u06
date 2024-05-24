@@ -6,8 +6,8 @@
 
 template <class T> std::list<T> kehrt(std::list<T> list) {
     std::stack<T> stack;
-    for(const T& element : list) {
-        stack.push(element);
+    for(auto i : list) {
+        stack.push(i);
     }
     std::list<T> list2;
     while (!stack.empty()) {
