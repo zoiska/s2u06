@@ -1,6 +1,3 @@
-//
-// Created by zoisk on 24.05.2024.
-//
 #include "Map.h"
 
 word_count::word_count(std::string input) {

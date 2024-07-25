@@ -1,6 +1,3 @@
-//
-// Created by zoisk on 24.05.2024.
-//
 #include <list>
 #include <stack>
 

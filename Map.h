@@ -1,7 +1,3 @@
-//
-// Created by zoisk on 24.05.24.
-//
-
 #ifndef $MAP_H
 #define $MAP_H
 

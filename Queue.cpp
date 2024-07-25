@@ -1,6 +1,3 @@
-//
-// Created by zoisk on 24.05.24.
-//
 #include <iostream>
 #include <queue>
 
@@ -12,7 +9,7 @@ public:
         q.push(t);
     }
     void kassieren() {
-        if(q.empty()) {
+        if(!q.empty()) {
             std::cout << q.front() << " wurde kassiert.\n";
             q.pop();
         }
